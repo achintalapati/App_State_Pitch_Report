@@ -23,7 +23,8 @@ pitch_colors = c("Fastball" = '#d7191c',
                  "Changeup" = '#90EE90',
                  "Splitter" = '#90EE32',
                  "Cutter" = "pink")
-list.files(".")
+# list.files(".")
+# CHANGE THE LINE BELOW TO POINT TO THE FILE PATH OF THE TRACKMAN DATA YOU WANT TO GENERATE A PITCH REPORT FROM
 df <- read_csv("./Documents/app_state_analytics/trackman_analytics/20220308-JimPerry-1.csv") 
 
 df <- df %>% 
